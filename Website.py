@@ -24,7 +24,7 @@ if selected == "Home":
 
     with st.container():
         st.subheader("Hi, my name is Xiu Yang Kooi (Lucas)")
-        st.image(img_me, width=400)
+        st.image(img_me, width=300)
         st.write("---")
         st.title("A psychology graduate from the University of St Andrews")
         st.write("Aspiring researcher in cyberpsychology")
@@ -110,4 +110,5 @@ with st.container():
     with left_column:
         st.markdown(contact_form, unsafe_allow_html=True)
     with right_column:
+
         st.empty()
